@@ -48,7 +48,14 @@ bas nas! Contact : vts.stefan.stanic@gmail.com">
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" role="navigation">
     <div class="container">
@@ -226,7 +233,7 @@ bas nas! Contact : vts.stefan.stanic@gmail.com">
                 <h5>Lista proizvoda</h5>
                 <ul>
                     <li><a href="organski_proizvodi.html">Asortiman</a></li>
-                    <li><a href="sirca.html">Sirca</a></li>
+                    <li><a href="krekeri.html">Krekeri</a></li>
 
                 </ul>
             </div>
@@ -239,14 +246,19 @@ bas nas! Contact : vts.stefan.stanic@gmail.com">
     </div>
     <div class="social-networks">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.facebook.com/Organska-ishrana-367405757003413" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
     </div>
+    <p align="center"><a href="#"><img src="slike/Devlabanner.png" alt="pivo_header"></a></p>
     <div class="footer-copyright">
         <p>© 2017 OVO JE ISKLJUCIVO ZA SKOLSKI PROJEKAT!</p>
+        <p align="center">
+        <div class="fb-share-button" data-href="http://organska-ishrana.me/"
+             data-layout="button_count" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore"
+                                                                                        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Forganska-ishrana.me%2F&amp;src=sdkpreparse">Share us on Facebook</a>
+        </div>
     </div>
 </footer>
-
 
 
 
